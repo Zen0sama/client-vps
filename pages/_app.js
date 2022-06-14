@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { Provider } from 'react-redux'
 import store from '../redux/store'
 import Head from 'next/head'
+import Navbar from '../components/Navbar'
 import { ToastContainer } from 'react-toastify'
 
 function MyApp({ Component, pageProps }) {
@@ -14,6 +15,7 @@ function MyApp({ Component, pageProps }) {
                     <meta name="description" content="WibuSama" />
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
+                <Navbar />
                 <Component {...pageProps} />
             </Provider>
         </>

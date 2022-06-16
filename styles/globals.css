@@ -12,3 +12,7 @@ body {
 * {
     box-sizing: border-box;
 }
+
+.deal-container {
+    background: linear-gradient(to bottom, #f0f4f9 50%, white 50%);
+}
